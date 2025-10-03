@@ -1,0 +1,10 @@
+Model performance comparison (sorted by F1):
+                     Accuracy  Precision  Recall  F1 Score     AUC
+SVM                    0.9432     0.9372  0.9432    0.9207  0.6927
+Random Forest          0.9432     0.9465  0.9432    0.9191  0.7924
+KNN                    0.9393     0.9168  0.9393    0.9182  0.6672
+Logistic Regression    0.9393     0.9143  0.9393    0.9136  0.8598
+Decision Tree          0.9080     0.9066  0.9080    0.9073  0.5889
+
+Best by F1: SVM
+Best by AUC: Logistic Regression
